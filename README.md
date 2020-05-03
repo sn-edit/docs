@@ -1,5 +1,4 @@
-# docs
-Docs for sn-edit
+# sn-edit docs
 
 This repo contains the documentation to all the tools for sn-edit.
 
