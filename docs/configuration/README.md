@@ -8,19 +8,20 @@ This is a sample file, please fill in your details to use it.
 
 ```yaml
 app:
-  db:
+  core:
+    db:
     initialised: false
     path: /path/to/a/db/file/sn-edit.db
-  log_level: info
-  rest:
+    log_level: info
+    rest:
     masked: false
     password: password
     url: https://dev11112.service-now.com
     user: username
     xor_key: maskingkey
-  root_directory: /path/to/the/working/folder
-  tables:
-  - name: sys_script
+    root_directory: /path/to/the/working/folder
+    tables:
+    - name: sys_script
     fields:
       - extension: txt
         field: sys_id
@@ -28,7 +29,7 @@ app:
         field: script
       - extension: txt
         field: sys_name
-  - name: sys_script_include
+    - name: sys_script_include
     fields:
       - extension: txt
         field: sys_id
@@ -62,7 +63,8 @@ we ensure that sn-edit finds the database file correctly. See a sample below.
 
 ```yaml
 app:
-  db:
+  core:
+    db:
     initialised: false
     path: /Users/username/sn-edit/sn-edit.db
 ```
@@ -82,7 +84,8 @@ Possible values:
 
 ```yaml
 app:
-  log_level: info
+  core:
+    log_level: info
 ```
 
 ### app.rest
@@ -108,11 +111,12 @@ a slash.
 
 ```yaml
 rest:
-  masked: false
-  password: password
-  url: https://dev11112.service-now.com
-  user: username
-  xor_key: maskingkey
+  core:
+    masked: false
+    password: password
+    url: https://dev11112.service-now.com
+    user: username
+    xor_key: maskingkey
 ```
 
 ### app.root_directory
@@ -123,7 +127,8 @@ it you do not add any additional slashes at the end. Sn-edit will handle that fo
 
 ```yaml
 app:
-  root_directory: /path/to/the/working/folder
+  core:
+    root_directory: /path/to/the/working/folder
 ```
 
 ### app.tables
@@ -148,7 +153,8 @@ would like to download and then run the download command.
 
 ```yaml
 app:
-  tables:
+  core:
+    tables:
     - name: sys_script
       fields:
         - extension: txt
