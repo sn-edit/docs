@@ -4,3 +4,4 @@
 * [Getting Started](getting-started/README.md)
 * [Configuration Instructions](configuration/README.md)
 * [Commands](commands/README.md)
+* [Debugging](debugging/README.md)
