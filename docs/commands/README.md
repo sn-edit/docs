@@ -18,11 +18,13 @@ Available Commands:
   help        Help about any command
   updateset   Manage update sets for the app
   upload      Upload one entry from servicenow
-  version     Print the version number of sn-edit
 
 Flags:
       --config string   config file (default is $HOME/.sn-edit.yaml)
   -h, --help            help for sn-edit
+      --json            set this if you want sn-edit to output json to stdout
+  -v, --version         version for sn-edit
+
 
 Use "sn-edit [command] --help" for more information about a command.
 
