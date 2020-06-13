@@ -138,6 +138,11 @@ Set update set with sys_id for the scope x_1122323_scope
 sn-edit updateset --set --scope x_1122323_scope --update_set f1b8d304db2010108a1758b3cg96196x
 ```
 
+Truncate update set data
+```bash
+sn-edit updateset --truncate
+```
+
 ```
 Usage:
   sn-edit updateset [flags]
@@ -155,9 +160,9 @@ Global Flags:
 ```
 
 ### version
-Version just prints the current version of sn-edit. It does not accept any flags.
+Version just prints the current version of sn-edit. It does not accept any other parameters.
 
 Example usage:
 ````bash
-sn-edit version
+sn-edit --version
 ````

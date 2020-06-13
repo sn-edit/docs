@@ -42,10 +42,13 @@ We've built sn-edit in a way, to make it very easy to integrate anywhere. Due to
 and for the fact, that the commands are basically the same everywhere, we invite you, the community to develop extensions for
 any IDE or Editor of choice. We may support some of them officially, but we are not able cover every one of them.
 
-We are oficially supporting the following IDE's/Editors:
-* Visual Studio Code [sn-edit/vscode](https://github.com/sn-edit/vscode)
+**Personal note**:
+
+I invite all of you to create community built extensions to the major editors like Visual Studio Code, IntelliJ products and many others.
+I am determined to provide a stable CLI as the building stone of the various extensions.
 
 We would like to support every major Editor or IDE in this case too, so if you have the skill and time, please develop an extension for any
-one of them. We will be happy to showcase yours here. The idea is to have wide support for the major platforms available.
+one of them. The best could be moved to an official repo under this organization. 
+The idea is to have wide support for all the major platforms out there.
 
 To Get started, click [here](getting-started/README.md).

@@ -14,11 +14,11 @@ app:
     path: /path/to/a/db/file/sn-edit.db
     log_level: info
     rest:
-    masked: false
-    password: password
-    url: https://dev11112.service-now.com
-    user: username
-    xor_key: maskingkey
+      masked: false
+      password: password
+      url: https://dev11112.service-now.com
+      user: username
+      xor_key: maskingkey
     root_directory: /path/to/the/working/folder
     tables:
     - name: sys_script
