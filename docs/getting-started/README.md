@@ -1,10 +1,8 @@
 # Getting Started
 
-We provide releases for MacOS, Windows and Linux. Pick the version you would like to download.
-Choose the platform.
+We support every major platform but only the 64 bit distributions. Please choose your platform below, let it be macOS, Linux or Windows.
 
-We provide support for 64 bit distributions only, let it be Linux, macOS or Windows. You can get the source code
-and compile it if you want to.
+Follow the instructions below to set sn-edit up!
 
 ## Download
 
