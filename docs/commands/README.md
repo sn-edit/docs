@@ -161,6 +161,39 @@ Global Flags:
 
 ```
 
+### execute
+With the execute command you are able to execute a script as a background script on your instance. This command accepts two
+flags, one of them `--file` which should be ideally a full path to the script file which you want to execute on your instance.
+
+This command accepts an optional `--scope` flag. With this you can specify the scope name to execute your script in. If
+this flag is undefined, the default value is global.
+
+#### Example usages
+This would execute the myscript.js in global scope on your instance and get back the results.
+```
+sn-edit execute --file /home/user/sn-edit/scripts/myscript.js
+```
+
+This command would execute the myscript.js in the custom scope my_custom_scope and get back the results.
+```
+sn-edit execute --file /home/user/sn-edit/scripts/myscript.js --scope my_custom_scope
+```
+
+```
+Usage:
+  sn-edit execute [flags]
+
+Flags:
+      --file string    recommended use is a fullpath to the file, but you can also specify relative paths from the POV of the binary. (example: "/home/user/background-scripts/some-script.js")
+  -h, --help           help for execute
+      --scope string   the name of the scope, defaults to global (example: "global") (default "global")
+
+Global Flags:
+      --config string   config file (default is $HOME/.sn-edit.yaml)
+      --json            set this if you want sn-edit to output json to stdout
+
+```
+
 ### version
 Version just prints the current version of sn-edit. It does not accept any other parameters.
 
