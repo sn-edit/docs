@@ -47,6 +47,38 @@ over the config file in your `$HOME`.
 
 I will annotate the properties with `.` for reference. So you can easily see the path of the properties. 
 
+### app.core.root_directory
+The root directory must be a directory writable by sn-edit. We require full path, instead of relative path.
+All the downloaded entries will be saved here and this will be the working directory for the app. Do not add
+a slash at the end please. This will be handled by the app. We use os specific path separators, so it is important
+it you do not add any additional slashes at the end. Sn-edit will handle that for you.
+
+```yaml
+app:
+  core:
+    root_directory: /path/to/the/working/folder
+```
+
+### app.core.log_level
+The log level defines the depth of the output that the app gives you. For generic usage, `info` should be enough.
+For reporting an issue, it is recommended that you use the app with `debug` and provide as much details as possible.
+
+Possible values:
+* info
+* warn
+* error
+* panic
+* fatal
+* debug
+
+
+```yaml
+app:
+  core:
+    log_level: info
+```
+
+
 ### app.core.db
 This block contains the database details. We use an internal sqlite database to store some meta-data. This database
 is never transferred outside of your filesystem. We need this data for using the app. 
@@ -67,25 +99,6 @@ app:
     db:
     initialised: false
     path: /Users/username/sn-edit/sn-edit.db
-```
-
-### app.core.log_level
-The log level defines the depth of the output that the app gives you. For generic usage, `info` should be enough.
-For reporting an issue, it is recommended that you use the app with `debug` and provide as much details as possible.
-
-Possible values:
-* info
-* warn
-* error
-* panic
-* fatal
-* debug
-
-
-```yaml
-app:
-  core:
-    log_level: info
 ```
 
 ### app.core.rest
@@ -117,18 +130,6 @@ rest:
     url: https://dev11112.service-now.com
     user: username
     xor_key: maskingkey
-```
-
-### app.core.root_directory
-The root directory must be a directory writable by sn-edit. We require full path, instead of relative path.
-All the downloaded entries will be saved here and this will be the working directory for the app. Do not add
-a slash at the end please. This will be handled by the app. We use os specific path separators, so it is important
-it you do not add any additional slashes at the end. Sn-edit will handle that for you.
-
-```yaml
-app:
-  core:
-    root_directory: /path/to/the/working/folder
 ```
 
 ### app.tables
