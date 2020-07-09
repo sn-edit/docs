@@ -1,7 +1,15 @@
 # Configuration instructions
 
 We are using yaml for configuration files. It is easy to read, configure and maintain.
-It contains less bloat in comparison with a json file.
+
+## Configuration generator
+You can always take the sample file from the repository to configure your sn-edit instance, but for usability reasons,
+we recommend you to use the official [SN-EDIT Configurator](https://conf.sn-edit.com/) to configure and download your config file.
+Yaml files must have a strict structure in a block based manner, so it is recommended you edit these files with care or use our tool.
+
+There are links to the documentation website either for the parameters or the main blocks, like database, rest or tables.
+Please read through them carefully and evaluate your situation, so we are not spending time by diagnosing issues that exist because of
+bad configurations.
 
 ## sn-edit.sample.yaml
 This is a sample file, please fill in your details to use it.

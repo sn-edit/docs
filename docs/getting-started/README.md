@@ -39,10 +39,11 @@ $ sn-edit version # should print sn-edit v0.2 ab7e685 linux/amd64
 #### ** Windows **
 1. Download the binary for Windows on the [releases page](https://github.com/sn-edit/sn-edit/releases/latest).
 2. Create a folder in your user folder called `sn-edit`. So the path would look like this: `C:\Users\<your-username>\sn-edit`
-3. Put the downloaded exe file into this folder
-4. Follow the instructions laid out in this [article](https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/)
-5. The path you will have to add is the same as above `C:\Users\<your-username>\sn-edit` (replace <your-username> with your own value)
-6. Open a cmd and write `sn-edit --version` to check if everything works. The output should be something like this: `sn-edit version v0.2 ab7e685 windows/amd64`
+3. Put the downloaded exe file into this folder and name it `sn-edit`, this means you should have one exe file there with the name `sn-edit.exe`
+4. Please add your path `C:\Users\<your-username>\sn-edit` to your **Path (environment variable)** under **System variables** following the guide in step 5 
+5. Follow the instructions laid out in this [article](https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/)
+6. The path you will have to add is the same as above `C:\Users\<your-username>\sn-edit` (replace <your-username> with your own value)
+7. Open a cmd and write `sn-edit --version` to check if everything works. The output should be something like this: `sn-edit version v0.2 ab7e685 windows/amd64`
 
 <!-- tabs:end -->
 
