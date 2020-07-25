@@ -47,7 +47,7 @@ Official Extensions:
 
 **Personal maintainer note**:
 
-I invite all of you to create community built extensions to the major editors like Visual Studio Code, IntelliJ products and many others.
+I invite all of you to create community built extensions to the major editors out there.
 I am determined to provide a stable CLI as the building stone of the various extensions.
 
 We would like to support every major Editor or IDE in this case too, so if you have the skill and time, please develop an extension for any
