@@ -15,7 +15,7 @@ We've built sn-edit in Go which makes it easy to support all the major platforms
 > Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.
 
 We would like to make sn-edit as minimal as possible. This means that in the long-run, we would rather have
-less features which are stable, than to support many and have a lot of issues with the scope of it.
+fewer features which are stable, than to support many and have a lot of issues with the scope of it.
 
 We are pro-simplicity. If we can get the information from a Servicenow instance, we would like to make the experience
 as easy as possible. For the supported commands, we always try to minimize the impact of **you** providing the minimal amount
@@ -42,7 +42,10 @@ We've built sn-edit in a way, to make it very easy to integrate anywhere. Due to
 and for the fact, that the commands are basically the same everywhere, we invite you, the community to develop extensions for
 any IDE or Editor of choice. We may support some of them officially, but we are not able cover every one of them.
 
-**Personal note**:
+Official Extensions:
+- [VSCode](https://github.com/sn-edit/vscode)
+
+**Personal maintainer note**:
 
 I invite all of you to create community built extensions to the major editors like Visual Studio Code, IntelliJ products and many others.
 I am determined to provide a stable CLI as the building stone of the various extensions.
@@ -50,5 +53,3 @@ I am determined to provide a stable CLI as the building stone of the various ext
 We would like to support every major Editor or IDE in this case too, so if you have the skill and time, please develop an extension for any
 one of them. The best could be moved to an official repo under this organization. 
 The idea is to have wide support for all the major platforms out there.
-
-To Get started, click [here](getting-started/README.md).
