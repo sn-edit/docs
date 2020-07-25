@@ -13,13 +13,13 @@ Download the binary
 ```bash
 $ wget https://github.com/sn-edit/sn-edit/releases/download/v0.2/sn-edit-darwin-amd64 -O /usr/local/bin/sn-edit
 $ chmod +x /usr/local/bin/sn-edit
-$ sn-edit version # should print sn-edit v0.2 ab7e685 darwin/amd64
+$ sn-edit --version # should print sn-edit v0.2 6582622 darwin/amd64
 ```
 
 If you prefer, you can also install it using homebrew
 ```bash
 $ brew install sn-edit/stable/sn-edit
-$ sn-edit version # should print sn-edit v0.2 ab7e685 darwin/amd64
+$ sn-edit --version # should print sn-edit v0.2 6582622 darwin/amd64
 ```
 
 #### ** Linux **
@@ -27,13 +27,13 @@ Download the binary
 ```bash
 $ wget https://github.com/sn-edit/sn-edit/releases/download/v0.2/sn-edit-linux-amd64 -O /usr/local/bin/sn-edit
 $ chmod +x /usr/local/bin/sn-edit
-$ sn-edit version # should print sn-edit v0.2 ab7e685 linux/amd64
+$ sn-edit --version # should print sn-edit v0.2 6582622 linux/amd64
 ```
 
 If you prefer, you can also install it using homebrew
 ```bash
 $ brew install sn-edit/stable/sn-edit
-$ sn-edit version # should print sn-edit v0.2 ab7e685 linux/amd64
+$ sn-edit --version # should print sn-edit v0.2 6582622 linux/amd64
 ```
 
 #### ** Windows **
@@ -43,7 +43,7 @@ $ sn-edit version # should print sn-edit v0.2 ab7e685 linux/amd64
 4. Please add your path `C:\Users\<your-username>\sn-edit` to your **Path (environment variable)** under **System variables** following the guide in step 5 
 5. Follow the instructions laid out in this [article](https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/)
 6. The path you will have to add is the same as above `C:\Users\<your-username>\sn-edit` (replace <your-username> with your own value)
-7. Open a cmd and write `sn-edit --version` to check if everything works. The output should be something like this: `sn-edit version v0.2 ab7e685 windows/amd64`
+7. Open a cmd and write `sn-edit --version` to check if everything works. The output should be something like this: `sn-edit version v0.2 6582622 windows/amd64`
 
 <!-- tabs:end -->
 
